@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    position: relative;
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Dropdown Menu Styles */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px 0;
+    min-width: 200px;
+}
+
+.dropdown-menu li {
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.dropdown-menu li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Login Button Styles */
+.login-button .login {
+    padding: 5px 15px;
+    border: 2px solid #d9534f;
+    color: #d9534f;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.login-button .login:hover {
+    background-color: #d9534f;
+    color: #fff;
+}
